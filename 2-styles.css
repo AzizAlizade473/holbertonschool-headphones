@@ -1,0 +1,701 @@
+
+html, body {
+  margin: 0 auto; 
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+  font-family: 'Source Sans 3', sans-serif;
+  
+  
+  
+
+  
+}
+
+
+
+.hero {
+  height: 800px;
+  background-image: url('https://i.postimg.cc/DfXFmgC8/headphones-hero-1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  
+  
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  
+  
+  width: 100%;
+  
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.hero-image {
+  height: 32px;
+  width: 161px;
+  display: flex;
+  padding: 0 6vw;
+}
+
+/*Navigation*/
+.navigation {
+  display: flex;
+  gap: 35px;
+  font-weight: bold;
+  
+  font-size: 12px;
+  padding: 0 6vw;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover,
+.navigation a:active {
+    color: #FF6565;
+
+}
+
+
+
+.hero .h1-head{
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    margin: 0;
+       
+    
+    justify-content: center;
+    
+}
+
+
+.hero .h2-head{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.head-text {
+    margin-top: 290px;
+}
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    background-color: #FF6565;
+    border-radius: 50px;
+    width: 162px;
+    height: 44px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    color: white;
+}
+
+.btn-div {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    
+
+}
+
+.btn:hover,
+.btn:active {
+    opacity: 0.9
+}
+
+
+.h3-head {
+    max-width: 637px;
+    margin: 0 auto;
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+  line-height: 30px;
+}
+
+/* Hide checkbox */
+.menu-btn {
+  display: none;
+}
+
+/* Hamburger icon base styles (hidden by default) */
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  padding: 1rem;
+  position: relative;
+  user-select: none;
+  z-index: 10;
+  
+}
+
+.menu-icon .navicon {
+  background: var(--color-white);
+  display: block;
+  width: 2rem;
+  height: 0.2rem;
+  position: relative;
+  transition: background 0.2s ease-out;
+  color: black;
+}
+
+.menu-icon .navicon::before,
+.menu-icon .navicon::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: var(--color-white);
+  transition: all 0.2s ease-out;
+}
+
+.menu-icon .navicon::before {
+  top: 0.7rem;
+}
+
+.menu-icon .navicon::after {
+  top: -0.7rem;
+}
+
+/* Navigation base styles */
+.navigation {
+  display: flex;
+  gap: 2rem;
+}
+
+.navigation a {
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 0;
+}
+
+@media (min-width:946px) {
+  
+}
+
+@media (min-width:769px) and (max-width:945px) {
+  .results .box img {
+    width: 160px;
+    height: auto;
+  }
+
+  
+}
+@media (max-width: 768px) and (min-width: 481px) {
+
+  .footer {
+    padding: 2rem 5rem;
+  }
+  .hero {
+    height: 800px;
+    background-image: url('https://i.postimg.cc/DfXFmgC8/headphones-hero-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    padding: 2rem;
+  }
+
+  
+
+  .h1-head {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .cards {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding-left: 0;
+    
+    margin-top: 100px;
+    
+    width: 100%;
+  }
+
+  .what {
+    margin-bottom: 400px;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cards2 {
+    display: grid !important;
+    grid-template-columns: repeat(2, 17rem);
+    
+    padding-left: 0;
+    gap: 5rem;
+    
+    
+  }
+
+  .Our {
+    margin-top: 200px;
+
+  }
+
+
+
+  .results {
+    margin-top: 300px;
+  
+  background-image: url('https://i.postimg.cc/pVJxP1Y8/background-2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  min-height: 100vh;
+  
+  
+}
+}
+
+/* MOBILE styles */
+@media (max-width: 480px) {
+
+
+  .footer {
+    padding: 0;
+  }
+
+  .footer2 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .social img {
+    margin-bottom: 30px;
+  }
+
+  
+
+    .h2-what {
+        padding: 0 1rem;
+        font-weight: 200;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .hero {
+    height: 1200px;
+  }
+
+  
+  .header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  .what {
+    margin-bottom: 1000px;
+  }
+
+  .cards2 {
+    flex-direction: column;
+  }
+
+  .results {
+  background-image: url('https://i.postimg.cc/PxHccT77/background-4.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  padding: 4rem 1rem;
+  min-height: 120vh; /* Ensures full view height */
+}
+
+
+.res {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+
+
+  .navigation {
+    align-items: center;
+  }
+
+  /* Show hamburger icon */
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 11;
+  }
+
+.menu-icon .navicon,
+  .menu-icon .navicon::before,
+  .menu-icon .navicon::after {
+    background: #fff; 
+  }
+
+  /* Center logo horizontally and add margin below */
+  .logo {
+    margin: 0 auto;
+    z-index: 10;
+  }
+
+  .hero-image {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Navigation styles on mobile */
+  .navigation {
+    order: 3;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  .navigation a {
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+
+  /* Show menu when checkbox is checked */
+  .menu-btn:checked + .menu-icon + .navigation {
+    max-height: 500px; /* enough for menu items */
+  }
+
+  .h3-head {
+    max-width: 335px;
+    margin: 0 auto;
+    text-align: center;
+    color: white; 
+    font-size: 16px;
+    line-height: 1.5;   
+    padding: 1rem;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+.h1-head {
+    text-align: center;
+    margin-top: -50px;
+    
+}
+
+
+
+.h2-head {
+  max-width: 100%;
+  margin: 1rem auto 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 200;
+  padding: 0 1rem;
+}
+
+
+.hero {
+    height: 870px;
+}
+}
+
+
+.h1-what {
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    margin: 0;
+       
+    
+    justify-content: center;
+
+}
+
+
+.h2-what {
+
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 50;
+    margin-top: 50px;
+    line-height:30px;
+
+}
+
+
+.what-text {
+
+    
+    
+    max-width: 700px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+
+.what {
+    margin-top: 100px;
+    height: 500px;
+    
+}
+
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    margin-top: 100px;
+    
+}
+
+.sub-text {
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+    font-weight: 100;
+    text-align: center;
+}
+
+.box {
+    text-align: center;
+}
+
+.cards2 .box img {
+    max-height: 190px;
+    max-width: 190px;
+    
+    
+}
+
+.cards2 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    gap: 3rem;
+    
+    
+}
+
+.cards2 .box {
+    position: relative;
+  
+  
+  
+}
+
+.cards2 p,
+.cards2 h1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.cards2 p {
+    font-size: 14px;
+    top: 50%;
+    left: 50%;
+    margin-block-start: 0;
+    
+}
+
+.cards2 h1 {
+    font-size: 46px;
+    
+    top: 30%;
+
+    left: 50%;
+}
+
+
+
+.what img {
+    height: 66px;
+}
+
+
+
+.results {
+    margin-top: 80px;
+  
+  background-image: url('https://i.postimg.cc/k5xyR85V/background-1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  height: 60vh;
+  
+  
+}
+
+.results div {
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.results h1 {
+    font-size: 32px;
+}
+
+.results p {
+    font-size: 16px;
+    margin-top: 50px;
+    max-width: 637px;
+    font-weight: 300;
+    
+}
+
+
+.contact {
+  height: 500px;
+}
+
+.form {
+  justify-content: center;
+  display: flex;
+  align-content: center;
+  
+  margin-top: 20px;
+}
+
+.form input,
+.form input:focus {
+  border: none;
+
+  
+}
+
+.contact-text {
+  justify-content: center;
+  display: flex;
+  margin-top: 150px;
+  font-size: 32px;
+
+}
+
+.form form {
+  border-bottom: 1px solid #979797;
+  margin-bottom: 20px;
+  width: 300px;
+  
+}
+
+.form form label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+.form-elements {
+  flex-direction: column;
+}
+
+
+.footer {
+  background-color: #071629;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  padding: 2rem 10vw;
+  color: white;
+  text-align: center;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+
+.logo2 img,
+.social img {
+  height: 40px;
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer p {
+  margin: 0;
+  padding-top: 1rem;
+  font-size: 14px;
+}
+
+.social {
+  display: flex;
+  gap: 10px;
+}
+
+.social img {
+  height: 30px;
+  width: auto;
+  
+}
+
+.copyright {
+  font-weight: 100;
+}
+
